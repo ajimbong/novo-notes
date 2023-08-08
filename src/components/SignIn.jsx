@@ -54,7 +54,7 @@ export function SignIn({ signIn }) {
             transition={{ delay: 0.16 }}
           >
             <h1 className="note-title" style={{ color: "#8D8888" }}>
-              Welcome to Notes
+              Welcome to Notes 'Now By Ajim'
             </h1>
           </motion.div>
           <motion.div
