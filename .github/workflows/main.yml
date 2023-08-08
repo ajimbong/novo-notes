@@ -17,7 +17,7 @@ env:
   AWS_REGION: us-east-1                          
   ECS_SERVICE: ecs-cicd-ecs-service              
   ECS_CLUSTER: ecs-cicd-ecs-cluster              
-  ECS_TASK_DEFINITION: .github/.aws/td.json 
+  ECS_TASK_DEFINITION: aws/td.json 
   CONTAINER_IMAGE: ajimbong/novo-notes
   CONTAINER_NAME: novo-notes
   
