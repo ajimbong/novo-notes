@@ -47,7 +47,7 @@ jobs:
             context: .
             file: ./Dockerfile
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+            tags: ${{ secrets.DOCKER_HUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
         - name: Configure AWS credentials
           uses: aws-actions/configure-aws-credentials@v1
           with:
